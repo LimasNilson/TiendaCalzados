@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>CALZADO DEPORTIVO</title>
+</head>
+<body>
+	<section id="banner">
+	<div class="img-ban">
+	<img src="img/baner.jpg" width="99%" >
+    </div>
+	
+	</section>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/1c.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE AIR 97</p>
+                    <span class="precio">S/ 349</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/2c.png" alt="">
+                    </div>
+                    <p class="descripcion" id>NIKE RUNNING TERRA </p>
+                    <span class="precio">S/ 359</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/3c.png" alt="">
+                    </div>
+                    <p class="descripcion">ADIDAS WINFLO 8
+                    </p>
+                    <span class="precio">S/ 365</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/4c.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE LOW-TOP</p>
+                    <span class="precio">S/ 329</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/5c.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE BLAZER 97</p>
+                    <span class="precio">S/ 359</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/6c.png" alt="">
+                    </div>
+                    <p class="descripcion">PUMA LEGEND ESENTIAL</p>
+                    <span class="precio">S/ 219</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/7c.png" alt="">
+                    </div>
+                    <p class="descripcion">PUMA AIR ZOOM</p>
+                    <span class="precio">S/ 320</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/8c.png" alt="">
+                    </div>
+                    <p class="descripcion">Zapatillas Urbanas KING</p>
+                    <span class="precio">S/ 219</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
